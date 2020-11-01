@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+.backbox {
+	width: 100%;
+	height: 100%;
+	background-color: #0e124a;
+}
+
+.textbox {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	top: 3%;
+	color: white;
+}
+
+.textbox2 {
+	width: 100%;
+	height: 270px;
+	position: absolute;
+	top: 10%;
+}
+
+.textbox3 {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 30%;
+	color: white;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 100%;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 700%;
+	text-align: center;
+}
+
+.neon {
+	color: #FB4264;
+	line-height: 9vw;
+  	text-shadow: 0 0 3vw #2356FF;
+	animation: neon 2s linear infinite;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 175%;
+	text-align: center;
+}
+
+@keyframes typingAni {
+  0%{width:0%}
+  100%{width: 150px};
+}
+@keyframes cursor{
+  0%{opacity:0;}
+  50%{opacity:1;}
+  100%{opacity:0;}
+}
+
+.film{
+	background-color: black;
+	width: 100%;
+	height: 5%;
+	position: absolute;
+
+}
+
+.filmwhite{
+	background-color: white;
+	height: 3%;
+	width: 3%;
+	position: absolute;
+	border-radius: 28%;
+	top: 38.7%;
+}
+
+.filmwhite2{
+	background-color: white;
+	height: 3%;
+	width: 3%;
+	position: absolute;
+	border-radius: 28%;
+	bottom: 6%;
+}
+
+.vivid {
+	width: 410px;
+	height: 410px;
+	background-color: #ffc801;
+	position: absolute;
+	bottom: 10%;
+}
+
+.pastel {
+	width: 410px;
+	height: 410px;
+	background-color: #aee9ff;
+	position: absolute;
+	bottom: 10%;
+	animation-name: dlehd;
+	animation-duration: 2s;
+	left: 420px;
+}
+
+.mono {
+	width: 410px;
+	height: 410px;
+	background-color: #c5c3c3;
+	position: absolute;
+	bottom: 10%;
+	animation-name: dlehdxn;
+	animation-duration: 3s;
+	left: 840px;
+}
+
+.colorless {
+	width: 410px;
+	height: 410px;
+	background-color: white;
+	position: absolute;
+	bottom: 10%;
+	animation-name: dlehdtka;
+	animation-duration: 4s;
+	left: 1260px;
+}
+
+
+@-webkit-keyframes dlehd{
+	0%{
+		transform: translateX(-420px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+@-webkit-keyframes dlehdxn{
+	0%{
+		transform: translateX(-840px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+@-webkit-keyframes dlehdtka{
+	0%{
+		transform: translateX(-1260px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+.imgvivid1 {
+	width: 410px;
+	height: 410px;
+	position: absolute;
+	opacity: 0%;
+	animation-name: opacityimg;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+}
+
+.imgvivid2 {
+	width: 410px;
+	height: 410px;
+	position: absolute;
+	opacity: 0%;
+	animation-name: opacityimg;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+}
+
+.imgpastel {
+	width: 410px;
+	height: 410px;
+	bottom: 10%;
+	left: 420px;
+	opacity: 0%;
+	position: absolute;
+	animation-name: opacityimg;
+	animation-duration: 2s;
+	animation-delay: 6s;
+	animation-fill-mode: forwards;
+}
+
+
+.imgmono {
+	width: 410px;
+	height: 410px;
+	position: absolute;;
+	bottom: 10%;
+	left: 840px;
+	opacity: 0%;
+	animation-name: opacityimg;
+	animation-duration: 2s;
+	animation-delay: 8s;
+	animation-fill-mode: forwards;
+
+}
+
+.imgcolorless {
+	width: 410px;
+	height: 410px;
+	position: absolute;
+	bottom: 8%;
+	left: 1260px;
+	opacity: 0%;
+	animation-name: opacityimg;
+	animation-duration: 2s;
+	animation-delay: 10s;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes opacityimg{
+	0%{
+		opacity: 0%;
+	}
+	100%{
+		opacity: 100%;
+	}
+}
+
+@-webkit-keyframes neon {
+	0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+@-webkit-keyframes pastel {
+	0%{
+		transform: scale(0,0);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+
+@-webkit-keyframes mono{
+	0%{
+		transform: scale(1,1);
+	}
+	100%{
+		transform: scale(2,2);
+	}
+}
+
+
